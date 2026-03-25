@@ -1,0 +1,83 @@
+#overall{
+    display: flex;
+    flex-direction: row;
+position: relative;
+}
+#logo{
+    background-color: black;
+    opacity: 50%;
+    position: absolute;
+    height: 120px;
+    top: 150px;
+    font-size: xx-large;
+    width: 35vw;
+}
+img{
+    width: 35vw;
+    height: 100vh;
+    margin: 0%;
+}
+#left{
+    width: 35vw;
+}
+#right{
+    display: flex;
+    flex-direction: column;
+    width: 65vw;
+    margin: 0%;
+    
+}
+#rightTop, #rightBottom{
+    background-color: rgba(179, 157, 167, 0.082);
+}
+#text{
+    margin-top: 100px;
+    margin-left: 25px;
+    margin-right: 100px;
+    margin-bottom: 40px;
+    font-size: 22px;
+    font-weight: 500;
+}
+#headMiddle{
+    font-size: x-large;
+    margin-left: 25px;
+    margin-top: 10px;
+}
+#rightMiddle{
+    margin-left: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 25px;
+    max-height: 500px;
+    margin-right: 400px;
+    column-gap: 25px;
+    margin-top: 30px;
+}
+#rightMiddle>div{
+    font-size: xx-small;
+}
+#button{
+    border-radius: 7%;
+    margin: 0%;
+    background-color: darkgreen;
+    border-width: 1px;
+    width: 150px;
+    color: aliceblue;
+    margin-top: 20px;
+    margin-left: 25px;
+    height: 32px;
+}
+#lowerText{
+    margin-top: 20px;
+    margin-left: 25px;
+    margin-bottom: 50px;
+}
+#login{
+    color: darkgreen;
+}
+#rightBottom{
+    
+    display: flex;
+    flex-direction: column;
+    
+}
